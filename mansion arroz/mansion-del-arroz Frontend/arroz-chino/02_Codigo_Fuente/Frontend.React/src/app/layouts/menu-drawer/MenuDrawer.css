@@ -1,0 +1,65 @@
+.width-drawer {
+  width: 250px;
+}
+
+.bg-drawer {
+  background-color: #797878 !important;
+}
+
+.app-drawer {
+  color: #fff;
+  padding: 76px 12px;
+}
+
+.nav > li {
+  margin: 4px 0px;
+  border-radius: 6px !important;
+}
+
+.nav > li:hover {
+  background-color: #858383 !important;
+}
+
+.nav > li > a {
+  display: flex;
+  align-items: center;
+}
+
+.nav > li > a > p {
+  color: #fff;
+  font-size: 16px;
+  padding: 8px 0px !important;
+  margin-bottom: 0px !important;
+}
+
+.link-active {
+  border-radius: 6px !important;
+  background-color: #858383 !important;
+}
+
+/* ESTILOS SCROLL DRAWER */
+.scroll-drawer::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+.scroll-drawer::-webkit-scrollbar:vertical {
+  width: 10px;
+}
+
+.scroll-drawer::-webkit-scrollbar-button:increment,
+.scroll-drawer::-webkit-scrollbar-button {
+  display: none;
+}
+
+.scroll-drawer::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+
+.scroll-drawer::-webkit-scrollbar-thumb {
+  background-color: #cecdcd;
+  border-radius: 20px;
+}
+
+.scroll-drawer::-webkit-scrollbar-track {
+  border-radius: 10px;
+}

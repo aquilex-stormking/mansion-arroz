@@ -1,0 +1,9 @@
+.alerts {
+  right: 11px;
+  z-index: 1300;
+}
+
+.w-alert {
+  min-width: 300px !important;
+  max-width: 500px !important;
+}

@@ -1,0 +1,19 @@
+.style-content {
+  overflow: auto;
+  flex-grow: 1;
+  margin-top: 64px !important;
+}
+
+.cambio-content {
+  transition: margin 225ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+  margin-left: 0;
+}
+
+.content {
+  transition: margin 195ms cubic-bezier(0.4, 0, 0.6, 1) 0ms;
+  margin-left: -250px;
+}
+
+.content-height {
+  min-height: 90vh !important;
+}

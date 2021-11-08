@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-size: 1rem !important;
+  background-color: #f8f9fa !important;
+}
+
+.app-height {
+  min-height: 100vh !important;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.size-icon {
+  font-size: 24px !important;
+}
+
+.btn-login {
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  padding: 0.75rem 1rem;
+}
+
+.size-buttons-acciones {
+  padding: 0px !important;
+  width: 26px;
+  height: 26px;
+}
+
+.modal-backdrop {
+  z-index: 1210 !important;
+}
+
+.modal {
+  z-index: 1211 !important;
+}
+
+.css-1to7aaw-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+  background-color: #dc3545 !important;
+}
+
+/* ESTILOS SCROLL TABLA */
+.table-responsive::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+.table-responsive::-webkit-scrollbar:vertical {
+  width: 10px;
+}
+
+.table-responsive::-webkit-scrollbar-button:increment,
+.table-responsive::-webkit-scrollbar-button {
+  display: none;
+}
+
+.table-responsive::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+
+.table-responsive::-webkit-scrollbar-thumb {
+  background-color: #cecdcd;
+  border-radius: 20px;
+}
+
+.table-responsive::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
